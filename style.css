@@ -1,0 +1,72 @@
+body{
+
+    font-family: 'Lato', sans-serif;
+}
+
+.contenedor{
+    margin: 0 auto;
+    width: 1100px;
+}
+
+.nombrePlan{
+    font-weight: 400;
+}
+
+.texto{
+    font-weight: 300;
+}
+
+.precio{
+    font-weight: 300;
+    font-size:50px;
+    color: seagreen;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.texto-centrado{
+    text-align: center;
+}
+
+.columna{
+    background-color: silver;
+    border: 1px solid black;
+    margin: 0px auto;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 5px darkgray;
+    width:23%;
+    box-sizing: border-box;
+}
+
+.boton-compra{
+    background-color: darkred;
+    display:block;
+    padding:10px;
+    color:white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.boton-compra:hover{
+    background-color: firebrick;
+}
+
+@media (max-width: 1070px){
+    .columna{
+        width: 45%;
+        margin-bottom:20px;
+    }
+}
+
+@media (max-width: 600px){
+    .columna{
+
+        width: 100%;
+        margin-bottom:20px;
+    }
+}
